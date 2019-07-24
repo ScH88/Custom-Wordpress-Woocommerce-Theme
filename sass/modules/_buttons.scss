@@ -1,0 +1,75 @@
+.wpcf7-submit {
+  background-color:$website-secondary-lime-green;
+  //-moz- prefix for mozilla compatibility
+  -moz-border-radius:8px;
+  //-webkit- prefix for chrome compatibility
+  -webkit-border-radius:8px;
+  //Regular border radius
+  border-radius:8px;
+  border:1px solid $base-font-colour;
+}
+
+//The "Add To Cart" button, as found in the shop page and the product page
+.products .add_to_cart_button {
+  border:1px solid $base-font-colour !important;
+  color: $base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+  margin-bottom:12px !important;
+}
+
+//The "Add To Cart" button as found on the product page
+.product .single_add_to_cart_button {
+  border:1px solid $base-font-colour !important;
+  color:$base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+}
+
+//The "Description" tab in the product page
+.product .wc-tabs .description_tab {
+  border:1px solid $base-font-colour !important;
+  color:$base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+}
+
+//The "Additional Information" tab in the product page
+.product .wc-tabs .additional_information_tab {
+  border:1px solid $base-font-colour !important;
+  color:$base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+}
+
+//The tabs in the product page in general
+.product .woocommerce-tabs .tabs {
+  margin-bottom:0 !important;
+}
+
+//The button in the cart form in the v page
+.woocommerce-cart-form .button {
+  border:1px solid $base-font-colour !important;
+  color:$base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+}
+
+//The button in the cart form in the basket page, if disabled as per it's default state on page load
+.woocommerce-cart-form .button:disabled {
+  background:$body-background !important;
+}
+
+//The "Proceed to Checkout" button in the basket page
+.wc-proceed-to-checkout .checkout-button {
+  border:1px solid $base-font-colour !important;
+  color:$base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+}
+
+//The payment button in the checkout page
+.woocommerce-checkout-payment .button  {
+  border:1px solid $base-font-colour !important;
+  color:$base-font-colour !important;
+  background:$website-secondary-lime-green !important;
+}
+
+//The paypal image in the checkout page
+.payment_method_paypal label img {
+  margin-right:12px !important;
+}

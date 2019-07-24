@@ -1,0 +1,38 @@
+.wpcf7-form-control {
+   font-size: 1.3em;
+   width:100%;
+   color:$base-font-colour;
+   //-moz- prefix for mozilla compatibility
+   -moz-border-radius:8px;
+   //-webkit- prefix for chrome compatibility
+   -webkit-border-radius:8px;
+   //Regular border radius
+   border-radius:8px;
+   border:1px solid $base-font-colour;
+ }
+
+//The wrapper for the input fields found in the checkout page
+.woocommerce-checkout .woocommerce-input-wrapper {
+   margin-left:12px !important;
+ }
+
+ //The input fields found in the checkout page
+ .woocommerce-checkout .input-text {
+   margin-left:12px !important;
+   width:100% !important;
+   font-size: 1.3em;
+   border:1px solid $base-font-colour;
+   color:$base-font-colour;
+   //-moz- prefix for mozilla compatibility
+   -moz-border-radius:8px;
+   //-webkit- prefix for chrome compatibility
+   -webkit-border-radius:8px;
+   //Regular border radius
+   border-radius:8px;
+ }
+
+//The textarea inside the "additional fields" part of the checkout form
+ .woocommerce-additional-fields__field-wrapper .input-text {
+   width:10em !important;
+   height:12em !important;
+ }

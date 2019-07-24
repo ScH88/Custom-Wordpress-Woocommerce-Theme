@@ -1,0 +1,336 @@
+/*
+Theme Name: smcritsoltheme
+Theme Author: Scott Huck
+Description: A theme made exclusively for South MCR IT Solutions
+*/
+/* FONT COLOURS */
+/* COLOURS */
+/* DIMENSIONS */
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+body {
+  font-size: 16px;
+  font-family: "Segoe UI", "Segoe WP", "Segoe Regular", sans-serif;
+  background: #696969;
+  color: #000;
+}
+
+/* line 8, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+header {
+  text-align: center;
+  background: #000;
+  width: 100%;
+}
+
+/* line 14, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+footer {
+  background: #000;
+  width: 100%;
+}
+
+/* line 19, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+nav {
+  width: 100%;
+  border-top: 1px solid #00FF00;
+  border-bottom: 1px solid #00FF00;
+}
+
+/* line 25, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+main {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* line 30, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+a {
+  color: #00FF00;
+}
+
+/* line 34, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+a:hover {
+  color: #FFF;
+}
+
+/* line 38, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+a:active {
+  color: #000;
+}
+
+/* line 42, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/base/_base.scss */
+h1 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* line 2, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_typography.scss */
+.product .input-text {
+  border: 1px solid #000 !important;
+}
+
+/* line 7, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_typography.scss */
+.shop_table small {
+  color: #000 !important;
+}
+
+/* line 2, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_blocks.scss */
+.product .woocommerce-tabs .wc-tab {
+  padding: 12px !important;
+  background: #33333D;
+  color: #FFF;
+  border-top: 1px solid #00FF00 !important;
+}
+
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.wpcf7-submit {
+  background-color: #00FF00;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+/* line 13, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.products .add_to_cart_button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+  margin-bottom: 12px !important;
+}
+
+/* line 21, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.product .single_add_to_cart_button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+}
+
+/* line 28, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.product .wc-tabs .description_tab {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+}
+
+/* line 35, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.product .wc-tabs .additional_information_tab {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+}
+
+/* line 42, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.product .woocommerce-tabs .tabs {
+  margin-bottom: 0 !important;
+}
+
+/* line 47, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.woocommerce-cart-form .button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+}
+
+/* line 54, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.woocommerce-cart-form .button:disabled {
+  background: #696969 !important;
+}
+
+/* line 59, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.wc-proceed-to-checkout .checkout-button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+}
+
+/* line 66, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.woocommerce-checkout-payment .button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+}
+
+/* line 73, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_buttons.scss */
+.payment_method_paypal label img {
+  margin-right: 12px !important;
+}
+
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_forms.scss */
+.wpcf7-form-control {
+  font-size: 1.3em;
+  width: 100%;
+  color: #000;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+/* line 15, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_forms.scss */
+.woocommerce-checkout .woocommerce-input-wrapper {
+  margin-left: 12px !important;
+}
+
+/* line 20, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_forms.scss */
+.woocommerce-checkout .input-text {
+  margin-left: 12px !important;
+  width: 100% !important;
+  font-size: 1.3em;
+  border: 1px solid #000;
+  color: #000;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
+
+/* line 35, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_forms.scss */
+.woocommerce-additional-fields__field-wrapper .input-text {
+  width: 10em !important;
+  height: 12em !important;
+}
+
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_images.scss */
+.bannerimg {
+  width: 100%;
+}
+
+/* line 6, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_images.scss */
+.frontpageimg {
+  width: 100%;
+  height: 300px !important;
+  box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+/* line 13, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_images.scss */
+.products .woocommerce-placeholder {
+  border: 1px solid #00FF00 !important;
+}
+
+/* line 18, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_images.scss */
+.product .woocommerce-product-gallery {
+  border: 1px solid #000 !important;
+}
+
+/* line 23, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_images.scss */
+.product .wp-post-image {
+  border: 1px solid #00FF00 !important;
+}
+
+/* line 28, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/modules/_images.scss */
+.woocommerce-cart-form .woocommerce-placeholder {
+  border: 1px solid #00FF00 !important;
+}
+
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_nav.scss */
+#menu-top-menu li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* line 6, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_nav.scss */
+#menu-top-menu li a {
+  font-weight: bold;
+  color: #000;
+  padding: 10px;
+}
+
+/* line 12, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_nav.scss */
+#menu-top-menu li:hover {
+  background: #00FF00;
+  color: #FFF;
+}
+
+/* line 17, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_nav.scss */
+#menu-top-menu li:active {
+  background: #33333D;
+}
+
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_footer.scss */
+.footer-head {
+  color: #FFF;
+}
+
+/* line 5, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_footer.scss */
+.footercol {
+  padding: 12px;
+  border: 1px solid #00FF00;
+}
+
+@media (max-width: 576px) {
+  /* line 2, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_mobile.scss */
+  footer {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  /* line 7, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_mobile.scss */
+  .bannerimg {
+    height: 50px;
+  }
+}
+
+@media (max-width: 350px) {
+  /* line 13, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_mobile.scss */
+  .woocommerce-checkout .input-text {
+    margin-left: 0 !important;
+  }
+}
+
+/* line 1, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar {
+  padding: 12px;
+  border: 1px solid #00FF00;
+  text-align: center;
+}
+
+/* line 7, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar div h2 {
+  color: #FFF;
+}
+
+/* line 11, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar .cart_list {
+  padding: 0 !important;
+}
+
+/* line 15, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar .cart_list .mini_cart_item {
+  margin-bottom: 12px;
+}
+
+/* line 19, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar .woocommerce-mini-cart-item {
+  list-style-type: none;
+}
+
+/* line 23, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar .woocommerce-placeholder {
+  border: 1px solid #00FF00;
+  margin-right: 12px;
+}
+
+/* line 28, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar .remove_from_cart_button {
+  color: #FF0000;
+  background: #696969;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/* line 36, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.primary-sidebar .button {
+  margin: 5px;
+}
+
+/* line 40, C:/Users/Scott/Desktop/xampp/htdocs/MyWebsiteWoocommerce/wp-content/themes/smcritsoltheme/sass/layouts/_sidebar.scss */
+.woocommerce-mini-cart__buttons .button {
+  border: 1px solid #000 !important;
+  color: #000 !important;
+  background: #00FF00 !important;
+  margin-bottom: 12px !important;
+  -moz-border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  border-radius: 8px !important;
+  padding: 8px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=../style.map */

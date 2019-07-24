@@ -1,0 +1,9 @@
+//The input box in the product page that lets users select how many of the product to order
+.product .input-text {
+  border:1px solid $base-font-colour !important;
+}
+
+//The small text inside the "Basket Totals" table in the cart page
+.shop_table small {
+  color:$base-font-colour !important;
+}

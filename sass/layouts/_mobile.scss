@@ -1,0 +1,16 @@
+@media (max-width:576px) {
+  footer {
+    padding-left:2%;
+    padding-right:2%;
+  }
+
+  .bannerimg {
+    height:50px;
+  }
+}
+
+@media (max-width:350px) {
+  .woocommerce-checkout .input-text {
+    margin-left:0 !important;
+  }
+}

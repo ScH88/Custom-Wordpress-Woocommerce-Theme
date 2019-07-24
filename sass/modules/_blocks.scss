@@ -1,0 +1,7 @@
+//The content below the tabs in the product page
+.product .woocommerce-tabs .wc-tab {
+  padding:$block-spacing !important;
+  background:$nav-background-gray;
+  color:$inverse-font-colour;
+  border-top:1px solid $website-secondary-lime-green !important;
+}

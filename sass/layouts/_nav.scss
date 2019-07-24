@@ -1,0 +1,19 @@
+#menu-top-menu li {
+  margin-right:$nav-bar-spacing;
+  margin-left:$nav-bar-spacing;
+}
+
+#menu-top-menu li a {
+  font-weight:bold;
+  color:$base-font-colour;
+  padding:$nav-bar-spacing;
+}
+
+#menu-top-menu li:hover {
+  background:$website-secondary-lime-green;
+  color:#FFF;
+}
+
+#menu-top-menu li:active {
+  background:$nav-background-gray;
+}

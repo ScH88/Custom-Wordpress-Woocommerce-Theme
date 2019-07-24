@@ -1,0 +1,21 @@
+/*
+Theme Name: smcritsoltheme
+Theme Author: Scott Huck
+Description: A theme made exclusively for South MCR IT Solutions
+*/
+
+@import 'base/_variables.scss';
+//@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_forms.scss';
+@import 'modules/_images.scss';
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_mobile.scss';
+@import 'layouts/_sidebar.scss';
+//@import 'layouts/_print.scss';
